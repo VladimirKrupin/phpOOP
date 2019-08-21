@@ -40,11 +40,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CorporateLayouts/DomainModel/woo/domain/DomainObject.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+            <state relative-caret-position="75">
+              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CorporateLayouts/DomainModel/woo/mapper/Mapper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding>
+                <element signature="e#28#54#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,6 +100,7 @@
         <option value="$PROJECT_DIR$/CorporateLayouts/TransactionsScripts/base/ApplicationRegistry.php" />
         <option value="$PROJECT_DIR$/CorporateLayouts/TransactionsScripts/woo/process/VenueManager.php" />
         <option value="$PROJECT_DIR$/CorporateLayouts/DomainModel/woo/domain/DomainObject.php" />
+        <option value="$PROJECT_DIR$/CorporateLayouts/DomainModel/woo/mapper/Mapper.php" />
       </list>
     </option>
   </component>
@@ -134,7 +147,7 @@
               <item name="CorporateLayouts" type="462c0819:PsiDirectoryNode" />
               <item name="DomainModel" type="462c0819:PsiDirectoryNode" />
               <item name="woo" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,18 +195,19 @@
       <updated>1566195578803</updated>
       <workItem from="1566195579941" duration="2794000" />
       <workItem from="1566198422656" duration="1856000" />
-      <workItem from="1566280893609" duration="942000" />
+      <workItem from="1566280893609" duration="1607000" />
+      <workItem from="1566366610201" duration="1444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5592000" />
+    <option name="totallyTimeSpent" value="7701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1600" height="902" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3024453" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3063063" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -228,6 +242,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CorporateLayouts/TransactionsScripts/woo/process/VenueManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CorporateLayouts/TransactionsScripts/base/Registry.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -249,17 +270,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CorporateLayouts/TransactionsScripts/woo/process/VenueManager.php">
+    <entry file="file://$PROJECT_DIR$/CorporateLayouts/DomainModel/woo/domain/DomainObject.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="75">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CorporateLayouts/DomainModel/woo/domain/DomainObject.php">
+    <entry file="file://$PROJECT_DIR$/CorporateLayouts/DomainModel/woo/mapper/Mapper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="e#28#54#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
