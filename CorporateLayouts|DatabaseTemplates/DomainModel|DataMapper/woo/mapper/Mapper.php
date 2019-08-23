@@ -1,5 +1,6 @@
 <?php
 namespace woo\mapper;
+use PDO;
 use woo\base\AppException;
 use woo\base\ApplicationRegistry;
 use woo\domain\DomainObject;
@@ -7,9 +8,16 @@ use woo\domain\DomainObject;
 abstract class Mapper
 {
     protected static $PDO;
-    public function __construct(\PDO $pdo)
+    public function __construct()
     {
-            $this->pdo = $pdo;
+        if (!isset(self::$PDO)){
+            $dsn = ApplicationRegistry::getMysql();
+            if (is_null($dsn)){
+                throw new AppException('DSN не определен');
+            }
+            self::$PDO = new PDO($dsn['db'],$dsn['user'],$dsn['pass']);
+            self::$PDO->setAttribute(\PDO::ATTR_ERRMODE,\PDO::ERRMODE_EXCEPTION);
+        }
     }
     function find($id){
         $this->selectStmt()->execute([$id]);

@@ -6,9 +6,9 @@ use woo\domain\Venue;
 
 class VenueMapper extends Mapper
 {
-    public function __construct(\PDO $pdo)
+    public function __construct()
     {
-        parent::__construct($pdo);
+        parent::__construct();
         $this->selectStmt = self::$PDO->prepare("select * from venue where id=?");
         $this->updateStmt = self::$PDO->prepare("update venue set name=?, id=? where id=?");
         $this->insertStmt = self::$PDO->prepare("insert into venue (name) values (?)");

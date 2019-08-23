@@ -1,6 +1,6 @@
 <?php
 namespace woo\base;
-use woo\controller\RequestController as Request;
+
 class ApplicationRegistry extends Registry {
     private static $instance = null;
     private $freezedir = "data";
@@ -47,6 +47,14 @@ class ApplicationRegistry extends Registry {
     }
     static function setDSN($dsn){
        return self::instance()->set('dsn',$dsn);
+    }
+
+    static function getMysql(){
+        return self::instance()->getMysqlSettings();
+    }
+
+    protected function getMysqlSettings(){
+        return include 'data/DB_Mysql_Settings.php';
     }
 
 }
